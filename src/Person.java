@@ -7,11 +7,13 @@ public class Person {
         this.lastName = lastName;
     }
 
+
+
     int throwDisc(int pow){
-
+        return pow*2;
     }
-
-    String toString(){
-        return (lastName + ", " + firstName);
+    @Override
+    public String toString(){
+        return lastName + ", " + firstName;
     }
 }
