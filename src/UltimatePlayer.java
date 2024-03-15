@@ -1,2 +1,9 @@
-package PACKAGE_NAME;public class UltimatePlayer {
+public class UltimatePlayer extends Person{
+
+    int jerseyNumber;
+
+    static int jerseyNumberCounter;
+    String position;
+
+
 }
